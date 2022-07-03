@@ -1,6 +1,4 @@
-package com.rohan.levelOrder;
-
-import com.rohan.Tree.BFS.TreeNode;
+package com.rohan.postOrder;
 
 public class Node {
 
@@ -8,9 +6,10 @@ public class Node {
 	Node left;
 	Node right;
 	
-   Node(int data){
+	Node(int data){
 		this.data=data;
 		left=null;
 		right=null;
 	}
+	
 }
