@@ -1,13 +1,17 @@
-package LinkedList;
+package com.rohan.inOrder;
 
 public class Node {
-	
-	int data;
-	Node next;
-	
-	Node(){
-		data=0;
-		next=null;
-	}
 
+	int data;
+	Node left;
+	Node right;
+	
+	Node(int data){
+		this.data=data;
+		left=null;
+		right=null;
+	}
+	
+	
+	
 }
