@@ -1,12 +1,13 @@
-package com.rohan.postOrder;
+package com.rohan.preOrder;
 
 public class Node {
 
+	
 	int data;
 	Node left;
 	Node right;
 	
-	Node(int data){
+	public Node(int data) {
 		this.data=data;
 		left=null;
 		right=null;
