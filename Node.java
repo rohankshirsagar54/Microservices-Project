@@ -1,16 +1,13 @@
-package com.rohan.preOrder;
+package com.rohan.Queue;
 
 public class Node {
 
-	
+	Node next;
 	int data;
-	Node left;
-	Node right;
 	
-	public Node(int data) {
-		this.data=data;
-		left=null;
-		right=null;
+	Node(){
+		next=null;
+		data=0;
 	}
 	
 }
