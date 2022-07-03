@@ -1,23 +1,15 @@
-package com.rohan.stack;
+package com.rohan.Tree.BFS;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String args[]) {
+		
+		BreadthFirstSearch b=new BreadthFirstSearch();
+		b.Tree();
+		b.BST();
 		
 		
-		Stack1 s=new Stack1();
-		
-		s.push(2);
-		s.push(4);
-		s.push(6);
-		s.display();
-		
-		s.push(8);
-		s.display();
-		
-		s.pop();
-		s.peek();
-
 	}
-
+	
+	
 }
