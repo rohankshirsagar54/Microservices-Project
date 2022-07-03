@@ -1,4 +1,4 @@
-package com.rohan.Queue;
+package com.rohan.stack;
 
 public class Node {
 

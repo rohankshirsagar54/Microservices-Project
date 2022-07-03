@@ -1,20 +1,23 @@
-package com.rohan.Queue;
+package com.rohan.stack;
 
 public class Main {
-	
-	public static void main(String args[]) {
+
+	public static void main(String[] args) {
 		
-		Queue1 q=new Queue1();
 		
-		q.enqueue(10);
-		q.enqueue(20);
-		q.enqueue(5);
-		q.display();
+		Stack1 s=new Stack1();
 		
-		q.dequeue();
-		q.dequeue();
-		q.dequeue();
-		q.dequeue();
+		s.push(2);
+		s.push(4);
+		s.push(6);
+		s.display();
+		
+		s.push(8);
+		s.display();
+		
+		s.pop();
+		s.peek();
+
 	}
 
 }
